@@ -1,26 +1,28 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Tema base -->
     <style name="Base.Theme.TandemMG" parent="Theme.Material3.DayNight.NoActionBar">
-
-        <!-- Colores principales -->
         <item name="colorPrimary">@color/coral</item>
         <item name="colorPrimaryDark">@color/coral_dark</item>
         <item name="colorSecondary">@color/gold</item>
         <item name="colorSecondaryVariant">@color/gold_dark</item>
-
-        <!-- Fondo y superficie -->
         <item name="android:colorBackground">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
         <item name="colorSurface">@color/surface</item>
-
-        <!-- Texto sobre colores primarios -->
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorOnSecondary">@color/white</item>
         <item name="colorOnBackground">@color/text_primary</item>
         <item name="colorOnSurface">@color/text_primary</item>
-
     </style>
 
     <style name="Theme.TandemMG" parent="Base.Theme.TandemMG" />
+
+    <!-- Tema para SplashActivity -->
+    <style name="Theme.TandemMG.Splash" parent="Theme.TandemMG">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
 
 </resources>
