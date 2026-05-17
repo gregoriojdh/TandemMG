@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+
+    <!-- Colores principales -->
+    <color name="coral">#E8635A</color>
+    <color name="gold">#C9A84C</color>
+
+    <!-- Variantes del coral -->
+    <color name="coral_dark">#C4443B</color>
+    <color name="coral_light">#F0928B</color>
+
+    <!-- Variantes del dorado -->
+    <color name="gold_dark">#A07830</color>
+    <color name="gold_light">#E0C078</color>
+
+    <!-- Neutros -->
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="background">#FFFAFAFA</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="text_primary">#FF212121</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="divider">#FFBDBDBD</color>
+
+    <!-- Tema oscuro -->
+    <color name="background_dark">#FF121212</color>
+    <color name="surface_dark">#FF1E1E1E</color>
+    <color name="text_primary_dark">#FFFAFAFA</color>
+
 </resources>
