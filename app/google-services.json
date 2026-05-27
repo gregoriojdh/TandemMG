@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956396873962",
+    "project_id": "tandemmg-1cc8a",
+    "storage_bucket": "tandemmg-1cc8a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956396873962:android:29773b0e9886265fb64f93",
+        "android_client_info": {
+          "package_name": "com.gregorio.tandemmg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPDFS97G3NaDNL2l5VAU_N8bZeYyXO3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
